@@ -1,7 +1,7 @@
 .swiper-slider-container {
-  width: 80%;
+ 
   margin: 0 auto;
-  height: 480px;
+  height: 550px;
   margin: 0 auto;
   padding: 0 50px;
   position: relative;
@@ -17,7 +17,7 @@
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: transparent;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
