@@ -1,0 +1,84 @@
+.swiper-slider-container {
+  width: 80%;
+  margin: 0 auto;
+  height: 480px;
+  margin: 0 auto;
+  padding: 0 50px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2em;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.mySwiper {
+  overflow: inherit;
+}
+
+figure {
+  width: 100%;
+  background-color: #231e1c;
+  height: 100%;
+  padding: 2em 1em;
+  color: #bcb5ab;
+}
+figure img {
+  height: auto !important;
+  aspect-ratio: 16/10;
+  -o-object-fit: unset !important;
+     object-fit: unset !important;
+  margin-bottom: 1em;
+}
+figure figcaption {
+  font-size: 30px;
+}
+figure ul {
+  font-size: 0.8em;
+  text-align: left;
+  margin-top: 2em;
+}
+figure ul li {
+  margin-bottom: 0.5em;
+}
+figure ul li:last-child {
+  margin-bottom: 0;
+}
